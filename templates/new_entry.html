@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Entry</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>New Entry</h1>
+        <div class="card">
+            <form action="/new_entry" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" name="name" required><br>
+                <label for="character">Favorite Marvel Character:</label>
+                <input type="text" name="character" required><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

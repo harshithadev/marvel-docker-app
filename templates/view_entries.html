@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Entries</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>View Entries</h1>
+        <div class="card">
+            <h2>All Entries</h2>
+            {% for entry in entries %}
+                <div class="entry">
+                    <span class="name">{{ entry['name'] }} alias </span>
+                    <span class="character">{{ entry['character'] }}</span>
+                    <div class="color" style="background-color: {{ entry['color'] }}"></div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

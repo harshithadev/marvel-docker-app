@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ title }}</h1>
+        <div class="card">
+            <a href="/new_entry"><h2>Enter a New Entry</h2><a>
+        </div>
+        <div class="card">
+            <a href="/view_entries"><h2>View All Users</h2></a>
+        </div>
+    </div>
+</body>
+</html>

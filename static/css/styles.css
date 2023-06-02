@@ -1,0 +1,113 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color and font styles */
+body {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #cc0000;
+}
+
+.card {
+    width: 600px;
+    max-width: 100%;
+    margin: 20px;
+    padding: 40px;
+    background-color: #282828;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.form-group input[type="text"] {
+    margin-bottom: 15px;
+}
+
+.form-group input[type="submit"] {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #cc0000;
+}
+
+.view-all-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #cc0000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.view-all-link:hover {
+    color: #ffffff;
+}
+
+.entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.name,
+.character {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 10px;
+    padding: 10px;
+    
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: auto;
+}
+
+.view-entries {
+    padding: 20px;
+}

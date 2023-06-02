@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  mongo:
+    image: mongo
+    restart: always
+    ports:  
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+
+  marvelapp:
+    image: marvelapp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5005:5005
+    links:
+      - mongo
+    depends_on:
+      - mongo
+
