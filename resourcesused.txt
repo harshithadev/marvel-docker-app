@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
+https://hub.docker.com/_/mongo
+https://hub.docker.com/_/python
+https://medium.com/geekculture/how-to-dockerize-your-flask-application-2d0487ecefb8
+https://docs.docker.com/engine/reference/commandline/build/
+https://www.pythonfixing.com/2022/07/fixed-dockerize-flaskapp-python.html
+https://towardsdatascience.com/docker-compose-for-absolute-beginners-how-does-it-work-and-how-to-use-it-examples-733ca24c5e6c
+https://stackoverflow.com/questions/70005277/flask-with-mongodb-docker-image-unable-to-connect
+https://www.mongodb.com/community/forums/t/mongodb-username-password-ip-address-27017-ip-address-what-does-it-mean-hear/144429/2
+https://docs.docker.com/engine/reference/commandline/compose_up/
+https://docs.docker.com/compose/compose-file/05-services/#depends_on
