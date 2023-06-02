@@ -3,6 +3,7 @@ https://hub.docker.com/_/mongo
 https://hub.docker.com/_/python
 https://medium.com/geekculture/how-to-dockerize-your-flask-application-2d0487ecefb8
 https://docs.docker.com/engine/reference/commandline/build/
+
 https://www.pythonfixing.com/2022/07/fixed-dockerize-flaskapp-python.html
 https://towardsdatascience.com/docker-compose-for-absolute-beginners-how-does-it-work-and-how-to-use-it-examples-733ca24c5e6c
 https://stackoverflow.com/questions/70005277/flask-with-mongodb-docker-image-unable-to-connect
